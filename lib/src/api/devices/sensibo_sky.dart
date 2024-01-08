@@ -1,10 +1,7 @@
-import 'dart:convert';
-
 import 'package:chopper/chopper.dart';
 import 'package:sensibo/src/api/devices/senesibo_base.dart';
 import 'package:sensibo/src/api/generated_code/sensibo.swagger.dart';
 import 'package:sensibo/src/sensibo_base_api.dart';
-import 'package:http/http.dart' as http;
 
 class SensiboSky extends SensiboBase {
   SensiboSky({

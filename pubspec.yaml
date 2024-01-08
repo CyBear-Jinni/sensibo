@@ -1,7 +1,8 @@
 name: sensibo
-description: A starting point for Dart libraries or applications.
+description: Control Sensibo devices. You can find a Sensibo Sky device for AC control and Sensibo Elements device.
 version: 1.0.0
 repository: https://github.com/CyBear-Jinni/sensibo
+homepage: https://sensibo.com
 
 environment:
   sdk: ^3.2.3
@@ -9,6 +10,8 @@ environment:
 
 dependencies:
   chopper: ^7.0.10
+  collection: ^1.18.0
+  http: ^1.1.2
   json_annotation: ^4.8.1
 
 dev_dependencies:
