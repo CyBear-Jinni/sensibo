@@ -1,12 +1,12 @@
 name: sensibo
 description: A starting point for Dart libraries or applications.
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/CyBear-Jinni/sensibo
 
 environment:
   sdk: ^3.2.3
 
-# Add regular dependencies here.
+
 dependencies:
   chopper: ^6.1.1
   json_annotation: ^4.8.0
