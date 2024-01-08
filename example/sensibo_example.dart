@@ -1,3 +1,6 @@
+import 'package:sensibo/sensibo.dart';
+
 void main() {
-  print('test');
+  SensiboBaseApi api = SensiboBaseApi();
+  api.info();
 }

@@ -3,5 +3,5 @@
       builders:
         swagger_dart_code_generator:
           options:
-            input_urls:
-              - "https://raw.githubusercontent.com/Sensibo/sensibo.github.io/master/sensibo.openapi.yaml"
+            input_folder: 'src/lib/api'
+            output_folder: 'src/lib/api/generated_code/'
