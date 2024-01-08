@@ -17,11 +17,12 @@ class _$Sensibo extends Sensibo {
   final definitionType = Sensibo;
 
   @override
-  Future<Response<dynamic>> _usersMePodsGet({
-    String? fields,
-  }) {
+  Future<Response<dynamic>> _usersMePodsGet({String? fields, String? apiKey}) {
     final Uri $url = Uri.parse('/users/me/pods');
-    final Map<String, dynamic> $params = <String, dynamic>{'fields': fields};
+    final Map<String, dynamic> $params = <String, dynamic>{
+      'fields': fields,
+      'apiKey': apiKey
+    };
     final Request $request = Request(
       'GET',
       $url,

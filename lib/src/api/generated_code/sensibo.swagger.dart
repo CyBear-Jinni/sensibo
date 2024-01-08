@@ -47,14 +47,16 @@ abstract class Sensibo extends ChopperService {
 
   ///
   ///@param fields comma separated fields to retrieve or * for all
-  Future<chopper.Response> usersMePodsGet({String? fields}) {
-    return _usersMePodsGet(fields: fields);
+  Future<chopper.Response> usersMePodsGet(
+      {String? fields, required String apiKey}) {
+    return _usersMePodsGet(fields: fields, apiKey: apiKey);
   }
 
   ///
   ///@param fields comma separated fields to retrieve or * for all
   @Get(path: '/users/me/pods')
-  Future<chopper.Response> _usersMePodsGet({@Query('fields') String? fields});
+  Future<chopper.Response> _usersMePodsGet(
+      {@Query('fields') String? fields, String? apiKey});
 
   ///
   ///@param device_id device unique id
