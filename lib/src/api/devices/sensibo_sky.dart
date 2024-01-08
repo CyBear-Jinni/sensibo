@@ -174,17 +174,24 @@ class SensiboSky extends SensiboBase {
       body: body,
     );
     return sensibo.client.send<dynamic, dynamic>(request);
+  }
 
-    // return (await http.post(
-    //   Uri.parse(
-    //     'https://home.sensibo.com/api/v2/pods/$id/acStates?apiKey=$apiKey',
-    //   ),
-    //   body: {
-    //     'acState': {
-    //       'on': false,
-    //     },
-    //   },
-    // ))
-    //     .body;
+  Future<Response<dynamic>> turnOff(String apiKey, Sensibo sensibo) async {
+    final Uri url = Uri.parse(
+      '/pods/$id/acStates?apiKey=$apiKey',
+    );
+
+    final body = {
+      'acState': {
+        'on': false,
+      },
+    };
+    final Request request = Request(
+      'POST',
+      url,
+      sensibo.client.baseUrl,
+      body: body,
+    );
+    return sensibo.client.send<dynamic, dynamic>(request);
   }
 }
