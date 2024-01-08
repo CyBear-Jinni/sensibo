@@ -103,14 +103,14 @@
         <entry key="chopper">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/chopper-6.1.4/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/chopper-7.0.10/lib" />
             </list>
           </value>
         </entry>
         <entry key="chopper_generator">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/chopper_generator-6.0.3/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/chopper_generator-7.0.7/lib" />
             </list>
           </value>
         </entry>
@@ -250,7 +250,7 @@
         <entry key="lints">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/lints-2.1.1/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/lints-3.0.0/lib" />
             </list>
           </value>
         </entry>
@@ -432,7 +432,7 @@
         <entry key="swagger_dart_code_generator">
           <value>
             <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/swagger_dart_code_generator-2.14.1/lib" />
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/swagger_dart_code_generator-2.14.2/lib" />
             </list>
           </value>
         </entry>
@@ -544,8 +544,8 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/built_collection-5.1.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/built_value-8.8.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/checked_yaml-2.0.3/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/chopper-6.1.4/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/chopper_generator-6.0.3/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/chopper-7.0.10/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/chopper_generator-7.0.7/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/code_builder-4.9.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/collection-1.18.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/convert-3.1.1/lib" />
@@ -565,7 +565,7 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/js-0.6.7/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/json_annotation-4.8.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/json_serializable-6.7.1/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/lints-2.1.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/lints-3.0.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/logging-1.2.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/markdown-7.1.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/matcher-0.12.16+1/lib" />
@@ -591,7 +591,7 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/stream_channel-2.1.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/stream_transform-2.1.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/string_scanner-1.2.0/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/swagger_dart_code_generator-2.14.1/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/swagger_dart_code_generator-2.14.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/term_glyph-1.2.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/test-1.25.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/test_api-0.7.0/lib" />
