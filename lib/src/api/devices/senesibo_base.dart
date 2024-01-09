@@ -1,4 +1,4 @@
-import 'package:sensibo/src/sensibo_base_api.dart';
+import 'package:sensibo/src/sensibo_utilties.dart';
 
 class SensiboBase {
   SensiboBase({

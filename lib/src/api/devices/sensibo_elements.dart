@@ -1,5 +1,5 @@
 import 'package:sensibo/src/api/devices/senesibo_base.dart';
-import 'package:sensibo/src/sensibo_base_api.dart';
+import 'package:sensibo/src/sensibo_utilties.dart';
 
 class SensiboElements extends SensiboBase {
   SensiboElements({
