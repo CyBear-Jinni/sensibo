@@ -21,8 +21,10 @@ class SensiboUtilties {
         await sensibo.usersMePodsGet(fields: '*', apiKey: apiKey);
 
     List<SensiboBase> devices = [];
-    Iterable<Map<String, dynamic>> devicesJson =
-        (response.body['result'] as List).map((e) => e as Map<String, dynamic>);
+    List<Map<String, dynamic>> devicesJson =
+        (response.body['result'] as List)
+            .map((e) => e as Map<String, dynamic>)
+            .toList();
 
     for (Map<String, dynamic> device in devicesJson) {
       String productModels = device['productModel'];
