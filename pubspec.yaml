@@ -1,11 +1,11 @@
 name: sensibo
 description: Control Sensibo devices. You can find a Sensibo Sky device for AC control and Sensibo Elements device.
-version: 1.0.2
+version: 1.0.3
 repository: https://github.com/CyBear-Jinni/sensibo
 homepage: https://sensibo.com
 
 environment:
-  sdk: ^3.2.3
+  sdk: ^3.0.0
 
 
 dependencies:
