@@ -1,14 +1,15 @@
 import 'package:sensibo/sensibo.dart';
-import 'package:sensibo/src/api/devices/senesibo_base.dart';
 
-void main() {
-  String apiKey = ;
+Future<void> main() async {
+  // Generate key from https://home.sensibo.com/me/api
+  String apiKey = 'YourApiKey';
   SensiboUtilties sensiboUtil = SensiboUtilties(apiKey);
   List<SensiboBase> devices = await sensiboUtil.getDevices();
-  
+
   for (final SensiboBase device in devices) {
     if (device is SensiboSky) {
-      print(await device.turnOn(apiKey, sensiboUtil.sensibo));
+      print(await SensiboSky.turnOn(
+          apiKey: apiKey, sensibo: sensiboUtil.sensibo, id: device.id));
     }
   }
 }

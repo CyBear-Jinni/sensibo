@@ -154,7 +154,11 @@ class SensiboSky extends SensiboBase {
   DateTime lastStateChangeToOff;
   DateTime warrantyEligibleUntil;
 
-  Future<Response<dynamic>> turnOn(String apiKey, Sensibo sensibo) async {
+  static Future<Response<dynamic>> turnOn({
+    required String apiKey,
+    required Sensibo sensibo,
+    required String id,
+  }) async {
     final Uri url = Uri.parse(
       '/pods/$id/acStates?apiKey=$apiKey',
     );
@@ -173,7 +177,11 @@ class SensiboSky extends SensiboBase {
     return sensibo.client.send<dynamic, dynamic>(request);
   }
 
-  Future<Response<dynamic>> turnOff(String apiKey, Sensibo sensibo) async {
+  static Future<Response<dynamic>> turnOff({
+    required String apiKey,
+    required Sensibo sensibo,
+    required String id,
+  }) async {
     final Uri url = Uri.parse(
       '/pods/$id/acStates?apiKey=$apiKey',
     );
